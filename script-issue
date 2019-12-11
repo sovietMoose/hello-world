@@ -1,0 +1,8 @@
+// This is the relevant piece of code, I believe
+// This is how it appears in proper scripts for the sheet, such as the Light Domain cleric's Warding Flare feature
+// I want to make it limited to twice the value of my Wisdom mod
+
+        usages : "Wisdom modifier per ",
+				usagescalc : "event.value = Math.max(1, What('Wis Mod'));",
+				recovery : "long rest",
+				action : ["action", ""]
