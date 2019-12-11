@@ -3,6 +3,6 @@
 // I want to make it limited to twice the value of my Wisdom mod
 
         usages : "Wisdom modifier per ",
-				usagescalc : "event.value = Math.max(1, What('Wis Mod'));",
-				recovery : "long rest",
-				action : ["action", ""]
+	usagescalc : "event.value = Math.max(1, What('Wis Mod'));",
+	recovery : "long rest",
+	action : ["action", ""]
